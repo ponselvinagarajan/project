@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero_detail h1{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-size: 70px;
+    font-weight: 800;
+}
+.hero_sec{
+    background-image:url('img_2.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.hero_detail{
+    padding-top:15%;
+    width: 50%;
+    padding-left: 5%;
+    text-align: center;
+}
+.hero_detail p{
+    font-size: 18px;
+}
+.btn{
+    margin-left: 22%;
+    margin-top: 20px;
+}
+.btn h3{
+    padding: 14px 18px;
+    width: 15%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #be9c79;
+    background-color: #be9c79;
+    transition: 0.5s;
+}
+.btn :hover{
+    background-color: black;
+}
